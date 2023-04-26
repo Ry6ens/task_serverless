@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "PPFraktionMono";
+  src: url("../styles/fonts/PPFraktionMono-Variable.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PPFormula";
+  src: url("../styles/fonts/PPFormula-NarrowRegular.woff");
+  font-display: swap;
+}
+
+:root {
+  --font-PPFraktionMono: "PPFraktionMono", Sans-serif;
+  --font-PPFormula: "PPFormula", Sans-serif;
+
+  --color-text: #fff;
+  --color-bg: #181819;
+
+  --btn-hover: #ffd600;
+}
+
+body {
+  font-family: var(--font-PPFraktionMono);
+  font-size: 16px;
+  line-height: 1.2;
+
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
