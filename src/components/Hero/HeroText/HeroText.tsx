@@ -17,5 +17,9 @@ export default function HeroText() {
     );
   });
 
-  return <Text>// Serverless.Team {elements}</Text>;
+  return (
+    <Text>
+      {"// Serverless.Team"} {elements}
+    </Text>
+  );
 }

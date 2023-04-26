@@ -11,6 +11,9 @@ export const Container = styled.header`
   justify-content: space-between;
 
   @media ${device.desktop} {
+    margin: 0px auto 40px;
     padding: 0px 64px;
+
+    max-width: 1440px;
   }
 `;

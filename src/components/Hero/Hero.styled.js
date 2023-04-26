@@ -5,7 +5,10 @@ export const Container = styled.section`
   padding: 0px 16px;
 
   @media ${device.desktop} {
+    margin: 0px auto 40px;
     padding: 0px 64px;
+
+    max-width: 1440px;
   }
 `;
 
