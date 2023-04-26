@@ -132,6 +132,7 @@ export const Title = styled.h1`
         rgba(248, 155, 102, 0.2) 0%,
         rgba(253, 239, 94, 0) 95.83%
       );
+
       border-left: 4px solid #e46f47;
     }
   }
