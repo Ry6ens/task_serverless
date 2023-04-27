@@ -8,10 +8,8 @@ export default function HeroText() {
   const arrayText = text.split("");
 
   const elements = arrayText.map((charAt, index) => {
-    const className = `--i:${index + 1}`;
-
     return (
-      <span key={className} style={{ "--i": index + 1 }}>
+      <span key={index} style={{ "--i": index + 1 }}>
         {charAt}
       </span>
     );
