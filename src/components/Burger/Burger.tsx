@@ -9,7 +9,7 @@ import {
   BurgerSpan_2,
   BurgerSpan_3,
   BurgerMenu,
-} from "./Burger.styled";
+} from "./styles";
 
 interface Props {
   showMenu: boolean;

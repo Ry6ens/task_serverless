@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Text } from "./HeroText.styled";
+import { Text } from "./styles";
 
 export default function HeroText() {
   const text = "is loading...";

@@ -1,10 +1,10 @@
 import styled from "styled-components";
-import { device } from "@/styles/Media.variables";
+import { devices } from "@/styles/mediaQueries";
 
 export const Container = styled.section`
   padding: 0px 16px;
 
-  @media ${device.desktop} {
+  @media ${devices.desktop} {
     padding: 0px 64px;
   }
 `;

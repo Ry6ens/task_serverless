@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import links from "@/database/navigation";
 
-import { List, StyledLink } from "./Nav.styled";
+import { List, StyledLink } from "./styles";
 
 export default function Nav() {
   const elements = links.map(({ id, route, title }) => (

@@ -11,7 +11,7 @@ import {
   Title,
   OverlayBottom,
   StyledLink,
-} from "./Hero.styled";
+} from "./styles";
 
 export default function Hero() {
   const matchesTablet = useMediaQuery("(min-width: 768.00px)");

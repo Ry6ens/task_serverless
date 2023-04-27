@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import { device } from "@/styles/Media.variables";
+import { devices } from "@/styles/mediaQueries";
 
-export const Container = styled.header`
+export const Header = styled.header`
   padding: 0px 16px;
 
   height: 66px;
@@ -10,7 +10,7 @@ export const Container = styled.header`
   align-items: center;
   justify-content: space-between;
 
-  @media ${device.desktop} {
+  @media ${devices.desktop} {
     margin: 0px auto 40px;
     padding: 0px 64px;
 

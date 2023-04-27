@@ -1,7 +1,7 @@
-import GlobalStyles from "@/styles/Global.styled";
-import "@/styles/globals.css";
-
 import Layout from "@/components/layout/Layout";
+
+import GlobalStyles from "@/styles/global";
+import "@/styles/globals.css";
 
 import type { AppProps } from "next/app";
 

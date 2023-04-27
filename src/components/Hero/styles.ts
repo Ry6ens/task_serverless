@@ -1,64 +1,16 @@
-import styled, { keyframes } from "styled-components";
-import { device } from "@/styles/Media.variables";
+import styled from "styled-components";
+
+import { devices } from "@/styles/mediaQueries";
+import { openclose } from "@/styles/animation";
 
 export const Container = styled.section`
   padding: 0px 16px;
 
-  @media ${device.desktop} {
+  @media ${devices.desktop} {
     margin: 0px auto 40px;
     padding: 0px 64px;
 
     max-width: 1440px;
-  }
-`;
-
-const openclose = keyframes`
-    0% {
-    width: 0;
-  }
-  5% {
-    width: 0;
-  }
-  15% {
-  }
-  30% {
-    width: 230px;
-  }
-  33% {
-    width: 0;
-  }
-  35% {
-    width: 0;
-  }
-  38% {
-  }
-  48% {
-    width: 190px;
-  }
-  62% {
-    width: 190px;
-  }
-  66% {
-    width: 0;
-    text-indent: 0;
-  }
-  71% {
-    width: 0;
-    text-indent: 5px;
-  }
-  86% {
-    width: 285px;
-  }
-  95% {
-    width: 285px;
-  }
-  98% {
-    width: 0;
-    text-indent: 5px;
-  }
-  100% {
-    width: 0;
-    text-indent: 0;
   }
 `;
 
@@ -108,7 +60,7 @@ export const Title = styled.h1`
     animation: ${openclose} 10s ease-in-out infinite;
   }
 
-  @media ${device.tablet} {
+  @media ${devices.tablet} {
     max-width: none;
 
     &:before {
@@ -117,7 +69,7 @@ export const Title = styled.h1`
     }
   }
 
-  @media ${device.desktop} {
+  @media ${devices.desktop} {
     font-size: 88px;
 
     &:before {
@@ -185,7 +137,7 @@ export const StyledLink = styled.a`
     background: var(--btn-hover);
   }
 
-  @media ${device.tablet} {
+  @media ${devices.tablet} {
     margin-top: 0;
 
     width: 267px;

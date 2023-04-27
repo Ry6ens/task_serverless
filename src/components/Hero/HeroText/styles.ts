@@ -1,11 +1,6 @@
-import styled, { keyframes } from "styled-components";
-import { device } from "@/styles/Media.variables";
+import styled from "styled-components";
 
-const flip = keyframes`
-   0%,80% {
-    transform: rotateY(360deg) 
-  }
-`;
+import { flip } from "@/styles/animation";
 
 export const Text = styled.p`
   position: relative;

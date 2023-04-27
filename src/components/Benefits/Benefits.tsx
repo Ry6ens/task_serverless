@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Container, Text } from "./Benefits.styled";
+import { Container, Text } from "./styles";
 
 export default function Benefits() {
   return (

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { device } from "@/styles/Media.variables";
+import { devices } from "@/styles/mediaQueries";
 
 export const List = styled.ul`
   padding: 20px 20px 0px 20px;
@@ -12,7 +12,7 @@ export const List = styled.ul`
   font-size: 14px;
   letter-spacing: 0.2px;
 
-  @media ${device.tablet} {
+  @media ${devices.tablet} {
     padding: 0;
     flex-direction: row;
     gap: 56px;

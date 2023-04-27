@@ -1,9 +1,16 @@
 import { createGlobalStyle } from "styled-components";
 
-const GlobalStyles = createGlobalStyle`
+export default createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  *::before,
+  *::after {
+    box-sizing: border-box;
   }
 
   h1, h2, h3, h4, h5 {
@@ -33,6 +40,10 @@ const GlobalStyles = createGlobalStyle`
     list-style: none;
   }
 
+  li {
+    list-style-type: none;
+  }
+
   button {
     font-family: var(--font-PPFraktionMono);
     
@@ -42,5 +53,3 @@ const GlobalStyles = createGlobalStyle`
   }
 
 `;
-
-export default GlobalStyles;
